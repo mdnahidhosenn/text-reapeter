@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ overflow: hidden;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background:linear-gradient(to left top,#1c98f0,#000000);
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 450px;
+  background:linear-gradient(to left top,#fe57eb,#6ec9f3);
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 51px 110px 10px rgb(0,0,0,0.3)
+}
+h2{
+  text-align: center;
+  margin-bottom: 10px;
+}
+#input ,.count {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #000;
+  font-weight: 500;
+}
+.inputAndbtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.generate {
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  background:linear-gradient(to left top,#ca0bc1,#2a3570);
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 15px 4px rgba(0,0,0,0.03);
+  cursor: pointer;
+}
+.check-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+.output {
+height: 350px;
+overflow-y: auto;
+scrollbar-width: thin;
+margin-bottom: 20px;
+font-size: 1.1rem;
+font-weight: 500;
+color: #fff;
+background:linear-gradient(to left top,#d127ad,#4296bf);
+border-radius: 5px;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.social span {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+.text {
+  font-size: 1.3rem;
+  margin-top:20px;
+  color: #fff;
+}
+
+ @media(max-width:375px){
+  .container{
+    background-color: transparent;
+    height: 100vh;
+  }
+   }
+   @media(max-height:667){
+     .text{
+       font-size: 8px;
+     }
+   
+   }
+   @media(max-width:460px){
+    .container{
+      background-color: transparent;
+      height: 100vh;
+    }
+   }
